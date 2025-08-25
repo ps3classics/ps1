@@ -7,15 +7,17 @@
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <style>
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
-      padding: 0;
-      text-align: center;
-      color: white;
-      background: linear-gradient(-45deg, #002244, #004488, #001122, #003366);
-      background-size: 400% 400%;
-      animation: gradientShift 15s ease infinite;
+      font-family: Arial, sans-serif;
+      color: #fff;
+      background: linear-gradient(-45deg, #440000, #532c00, #1b0707, #702121);
+      background-size: 600% 600%;
+      animation: gradientShift 20s ease infinite;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
     }
+
     @keyframes gradientShift {
       0% { background-position: 0% 50%; }
       50% { background-position: 100% 50%; }
